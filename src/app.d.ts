@@ -4,7 +4,7 @@
 declare namespace App {
     // interface Locals {}
     // interface PageData {}
-    // interface PageError {}
+    // interface Error {}
     // interface Platform {}
 
 }
@@ -23,13 +23,13 @@ declare namespace Wordpress {
     interface Post {
         id: string;
         title: string;
-        excerpt?: string;
-        content?: string;
-        date?: Date;
+        excerpt: string;
+        content: string;
+        date: Date;
         slug: string;
-        categories?: string[];
-        featuredImage?: Image;
-        author?: User;
+        categories: string[];
+        featuredImage: Image;
+        author: User;
     }
 }
 

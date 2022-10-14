@@ -10,7 +10,11 @@ const config = {
     ],
 
     theme: {
-        extend: {}
+        extend: {
+            aspectRatio: {
+                'yugioh-card' : '3 / 4'
+            }
+        }
     },
 
     plugins: [forms, lineClamp, typography, skeleton]

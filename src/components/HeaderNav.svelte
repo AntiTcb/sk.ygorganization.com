@@ -1,5 +1,6 @@
 <script lang="ts">
     import { AppBar, GradientHeading } from '@brainandbones/skeleton';
+    import AppBarTrail from './AppBarTrail.svelte';
 </script>
 
 <AppBar>
@@ -10,5 +11,6 @@
     </svelte:fragment>
     <input type="search" placeholder="Search..." class="max-w-sm hidden lg:block" />
     <svelte:fragment slot="trail">
+        <AppBarTrail />
     </svelte:fragment>
 </AppBar>

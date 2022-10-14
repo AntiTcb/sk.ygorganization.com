@@ -17,6 +17,8 @@ const config = {
             $components: 'src/components',
             $wp: 'src/lib/wp',
             $queries: 'src/lib/queries',
+            $stores: 'src/lib/stores',
+            $themes: 'src/lib/themes',
         }
     }
 };
